@@ -18,5 +18,21 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/LauAvinyo/kain/"
+"Bug Tracker" = "https://github.com/LauAvinyo/kain/issues"
+
+
+[tool.black]
+line-length = 88
+target-version = [‘py36’, ‘py37’, ‘py38’]
+include = ‘\.pyi?$’
+exclude = '''
+/(
+  \.toml
+  |\.sh
+  |\.git
+  |\.ini
+  |Dockerfile
+  |Jenkinfile
+)/
+'''
