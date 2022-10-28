@@ -1,3 +1,7 @@
+'''
+Basics toy example
+'''
+
 def normalize(matrix):
     """
     This code is bad. But I want to make sure no one uses kain name.
