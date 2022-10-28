@@ -1,6 +1,7 @@
-'''
+"""
 Basics toy example
-'''
+"""
+
 
 def normalize(matrix):
     """
